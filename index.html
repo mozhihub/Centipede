@@ -3,41 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon Red Dragon Interactive</title>
+    <title>Original Dragon</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="ui-layer">
         <button id="menu-toggle">⋮</button>
-        
         <div id="settings-panel" class="hidden">
-            <h3 class="menu-title">Dragon Settings</h3>
-            
-            <div class="option-box">
-                <label>Skin Glow Color</label>
-                <input type="color" id="color-picker" value="#ff0000">
-            </div>
-
-            <div class="option-box">
-                <label>Max Speed</label>
-                <input type="range" id="speed-slider" min="10" max="300" value="60">
-            </div>
-
-            <div class="option-box">
-                <label>Neon Glow Blur</label>
-                <input type="range" id="glow-slider" min="0" max="60" value="30">
-            </div>
-
-            <div class="option-box">
-                <label>Dragon Thickness</label>
-                <input type="range" id="thick-slider" min="1" max="15" value="4">
-            </div>
-
-            <button id="reset-btn">Reset Defaults</button>
-            <p style="font-size: 10px; color: #ffaaaa; margin-top: 10px; text-align: center;">Hold for Turbo Response!</p>
+            <h3>Settings</h3>
+            <label>Color</label>
+            <input type="color" id="color-picker" value="#00ff00">
+            <br><br>
+            <label>Speed</label>
+            <input type="range" id="speed-slider" min="5" max="100" value="12">
         </div>
     </div>
-
     <script src="script.js"></script>
     <script src="main.js"></script>
 </body>
