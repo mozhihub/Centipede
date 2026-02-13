@@ -1,0 +1,38 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    /* Red and Blue Gradient Background */
+    background: radial-gradient(circle at center, #300000 0%, #000033 100%);
+    height: 100vh;
+}
+
+#ui-layer { 
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    font-family: 'Arial', sans-serif; 
+}
+
+#menu-toggle { 
+    background: rgba(255, 0, 0, 0.2); 
+    color: #fff; 
+    border: 2px solid #ff0000; 
+    width: 45px; height: 45px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    box-shadow: 0 0 20px #ff0000, inset 0 0 10px #fff;
+}
+
+#settings-panel { 
+    background: rgba(0, 0, 0, 0.85); 
+    border: 1px solid #00ffff; 
+    color: #fff; 
+    padding: 15px; 
+    border-radius: 10px; 
+    margin-top: 10px; 
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+}
+
+.hidden { display: none; }
+canvas { touch-action: none; filter: contrast(1.2) brightness(1.1); }
